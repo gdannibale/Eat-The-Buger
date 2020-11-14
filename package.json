@@ -4,7 +4,8 @@
   "description": "",
   "main": "burgerReadData.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,14 @@
     "mysql": "^2.16.0",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdannibale/Eat-The-Buger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gdannibale/Eat-The-Buger/issues"
+  },
+  "homepage": "https://github.com/gdannibale/Eat-The-Buger#readme"
 }
