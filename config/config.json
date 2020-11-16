@@ -14,10 +14,10 @@
       "dialect": "mysql"
     },
     "production": {
-      "username": "root",
-      "password": null,
-      "database": "database_production",
-      "host": "https://burger-app-20201114.herokuapp.com/",
+      "username": "wkv1yhdxqdah4f0i",
+      "password": "u21rlbekwm33rbr5",
+      "database": "bw7bux0zw0rmti7n",
+      "host": "gk90usy5ik2otcvi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
       "dialect": "mysql"
     }
   }

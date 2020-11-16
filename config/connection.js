@@ -14,6 +14,7 @@ connection = mysql.createConnection(process.env.JAWSDB_URL);
   database: "burgers_db"
 
   });
+}; 
 
 
 connection.connect(function(err) {
