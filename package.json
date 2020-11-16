@@ -2,7 +2,7 @@
   "name": "burger-db-read-data",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "/models/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -20,10 +20,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gdannibale/Eat-The-Buger.git"
+    "url": "git+https://github.com/gdannibale/Eat-The-Burger.git"
   },
   "bugs": {
-    "url": "https://github.com/gdannibale/Eat-The-Buger/issues"
+    "url": "https://github.com/gdannibale/Eat-The-Burger/issues"
   },
-  "homepage": "https://github.com/gdannibale/Eat-The-Buger#readme"
+  "homepage": "https://github.com/gdannibale/Eat-The-Burger#readme"
 }
