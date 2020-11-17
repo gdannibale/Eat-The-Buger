@@ -5,8 +5,8 @@ let db = require("../models");
 module.exports = function (app) {
 
     // GET route to get all foods
-    app.get("/burgers", function (req, res) {
-        db.burgers.findAll({}).then(function (dbBurger) {
+    app.get("/api/burgers/current", function (req, res) {
+        db.Burgers.findAll({}).then(function (dbBurger) {
             res.json(dbBurger);
         }).catch(function (err) {
             res.json(err);
@@ -14,7 +14,7 @@ module.exports = function (app) {
     });
 
     // POST route for creating new food
-    app.post("/burgers", function (req, res) {
+    app.post("/api/burgers", function (req, res) {
         db.burgers.create({
             name: req.body.name
         }).then(function (dbBurger) {
